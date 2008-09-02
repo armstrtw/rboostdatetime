@@ -1,0 +1,7 @@
+Package: RBoostDateTime
+Title: R interface to Boost.Date_Time
+Version: 0.1.0
+Maintainer: Whit Armstrong <armstrong.whit@gmail.com>
+Author: Whit Armstrong <armstrong.whit@gmail.com>
+Description: A set of date-time libraries based on generic programming concepts.
+License: GPL-3
