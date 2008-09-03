@@ -1,3 +1,5 @@
-#include <boost/date_time.hpp>
+#include <boost/date_time/gregorian/gregorian.hpp>
 
-boost::gregorian::date immDate(const int mon, const int year);
+namespace RBoostDateTime {
+  boost::gregorian::date immDate(const int mon, const int year);
+}
