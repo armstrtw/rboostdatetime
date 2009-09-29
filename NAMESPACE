@@ -1,3 +1,7 @@
 useDynLib(RBoostDateTime)
 
-export(imm.date)
+export(
+       imm.date,
+       to.end.of.month,
+       to.first.of.next.month
+       )
