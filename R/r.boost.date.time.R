@@ -6,6 +6,10 @@ to.end.of.month <- function(x) {
     .Call("to_end_of_month",x,PACKAGE="RBoostDateTime")
 }
 
+to.end.of.week <- function(x) {
+    .Call("to_end_of_week",x,PACKAGE="RBoostDateTime")
+}
+
 to.first.of.next.month <- function(x) {
     .Call("to_first_of_next_month",x,PACKAGE="RBoostDateTime")
 }
